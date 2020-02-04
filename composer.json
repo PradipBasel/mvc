@@ -3,5 +3,8 @@
     "description": "this is",
     "type": "project",
     "license": "MIT",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {"mvc\\": "src/"}
+    }
 }
